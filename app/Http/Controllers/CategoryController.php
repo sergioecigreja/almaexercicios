@@ -17,7 +17,6 @@ class CategoryController extends Controller
      */
     public function index()
     {
-        Log::debug("Hello");
         $categories = Category::all();
         return $categories;
     }
